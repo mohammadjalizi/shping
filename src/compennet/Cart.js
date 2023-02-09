@@ -1,8 +1,21 @@
 import React from 'react'
 
-function Cart() {
+function Cart(props) {
   return (
-    <div>Cart</div>
+    <div className=' card  flex'>
+
+      <div className=' img'>
+
+        <img src={props.img}/>
+      </div>
+<div className=''>
+
+<h1>{props.name}</h1>
+
+</div>
+
+
+    </div>
   )
 }
 

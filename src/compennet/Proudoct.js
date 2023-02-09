@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from '../compennet/images/Album 1.png'
 import img2 from '../compennet/images/Album 2.png'
 import img3 from '../compennet/images/Album 3.png'
+import Cart from './Cart'
 
 let MULIST=[
 
@@ -13,8 +14,10 @@ let MULIST=[
 {id:4,name:'hassan',price:8,Image:img1},
 
 ]
-function Proudoct() {
-  const ullistmap=MULIST.map((meal)=><li> {meal.name}  </li>)
+function Proudoct(props) {
+  const ullistmap=MULIST.map(item=>(
+    <div className=  " bg-blue-400 rounded-full w-48 m-auto gap-10 my-9"   key={item.id} > {item.Image}  </div>
+  ))
   return (
     <div>
 
