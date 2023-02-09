@@ -2,18 +2,20 @@ import React from 'react'
 
 function Cart(props) {
   return (
-    <div className=' card  flex'>
+    <div className=' card  flex  w-2/5 m-auto bg-yellow-500'>
 
-      <div className=' img'>
+      <div className=' img   my' >
 
-        <img src={props.img}/>
+    
+{props.img1}  
       </div>
-<div className=''>
+<div className=' '>
+{props.id}
+{props.name}
+<hr/>
 
-<h1>{props.name}</h1>
-
+{props.price}
 </div>
-
 
     </div>
   )

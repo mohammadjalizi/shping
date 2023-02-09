@@ -16,7 +16,7 @@ let MULIST=[
 ]
 function Proudoct(props) {
   const ullistmap=MULIST.map(item=>(
-    < Cart  key={item.id} /> 
+    < Cart  key={item.id } image1={item.image} name={item.name} price={item.price} / > 
   ))
   return (
     <div>
