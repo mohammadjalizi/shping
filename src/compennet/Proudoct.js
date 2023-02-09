@@ -16,7 +16,7 @@ let MULIST=[
 ]
 function Proudoct(props) {
   const ullistmap=MULIST.map(item=>(
-    <div className=  " bg-blue-400 rounded-full w-48 m-auto gap-10 my-9"   key={item.id} > {item.Image}  </div>
+    < Cart  key={item.id} /> 
   ))
   return (
     <div>
