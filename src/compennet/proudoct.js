@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Shop() {
+export default function proudoct() {
   return (
-    <div>Shop</div>
+    <div>proudoct</div>
   )
 }
-
-export default Shop
