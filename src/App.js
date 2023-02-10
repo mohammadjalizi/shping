@@ -1,10 +1,10 @@
 import React from 'react'
-import Shop1 from './compennet/Shop1'
+import Shop from './compennet/Shop'
 function App() {
   return (
     <div>
 
-      <Shop1/>
+<Shop/>
     </div>
   )
 }
