@@ -41,9 +41,9 @@ export default class Shop extends Component {
                     <h1 class="band-name band-name-large">SabzLearn Shop</h1>
                 </header>
                 <section class="container content-section">
-                    <div class="shop-items">
+                    <div class=" flex w-3/4 gap-5">
 {this.state.products.map(item=>(
-<Product/>
+<Product  {...item} />
 
 
 
@@ -51,9 +51,9 @@ export default class Shop extends Component {
                       
                     </div>
                 </section>
-                <section class="container content-section">
-                    <h2 class="section-header">CART</h2>
-                    <div class="cart-row">
+                <section class=" my-16 bg-yellow-300">
+                    <h2 class=" text-center my-12">CART</h2>
+                    <div class=" flex justify-between w-3/4">
                         <span class="cart-item cart-header cart-column">ITEM</span>
                         <span class="cart-price cart-header cart-column">PRICE</span>
                         <span class="cart-quantity cart-header cart-column">Doing</span>
