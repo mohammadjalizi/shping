@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from '../compennet/images/Album 1.png'
 import img2 from '../compennet/images/Album 2.png'
 import img3 from '../compennet/images/Album 3.png'
-import Cart from './Cart'
+import proudoct from './proudoct'
 
 import React from 'react'
 
@@ -36,7 +36,12 @@ shopingcart:[],
   }
   render() {
     return (
-      <div>Proudoct</div>
+      <div>
+<proudoct/>
+
+
+
+      </div>
     )
   }
 }
