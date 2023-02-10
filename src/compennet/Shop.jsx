@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Product from './Product'
-
+import img1 from '../compennet/images/Album 1.png'
+import img2 from '../compennet/images/Album 2.png'
+import img3 from '../compennet/images/Album 3.png'
+import img4 from '../compennet/images/Album 4.png'
 export default class Shop extends Component {
 
     constructor(props) {
@@ -8,12 +11,12 @@ export default class Shop extends Component {
 
         this.state = {
             products: [
-                { id: 1, title: 'Album 1', price: 5, img: 'Images/Album 1.png' },
-                { id: 2, title: 'Album 2', price: 15, img: 'Images/Album 2.png' },
-                { id: 3, title: 'Album 3', price: 20, img: 'Images/Album 3.png' },
-                { id: 4, title: 'Album 4', price: 100, img: 'Images/Album 4.png' },
-                { id: 5, title: 'Coffee', price: 5, img: 'Images/Cofee.png' },
-                { id: 6, title: 'Shirt', price: 50, img: 'Images/Shirt.png' },
+                { id: 1, title: 'Album 1', price: 5, img:img1},
+                { id: 2, title: 'Album 2', price: 15, img:img2 },
+                { id: 3, title: 'Album 3', price: 20, img: img3},
+                { id: 4, title: 'Album 4', price: 100, img: img4 },
+                { id: 5, title: 'Coffee', price: 5, img: img1},
+                { id: 6, title: 'Shirt', price: 50, img:img2  },
             ],
 
             shoppingCart: [],
