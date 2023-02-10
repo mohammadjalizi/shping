@@ -4,7 +4,18 @@ import img2 from '../compennet/images/Album 2.png'
 import img3 from '../compennet/images/Album 3.png'
 import Cart from './Cart'
 
-let MULIST=[
+import React from 'react'
+
+import React, { Component } from 'react'
+
+export default class Proudoct extends Component {
+  constructor(props){
+
+super(props)
+
+this.state={
+proudocts:[
+
 
 
 {id:1,name:'mohammad',price:2,Image:img1},
@@ -14,11 +25,14 @@ let MULIST=[
 {id:4,name:'hassan',price:8,Image:img1},
 
 ]
-import React from 'react'
 
-import React, { Component } from 'react'
 
-export default class Proudoct extends Component {
+
+
+}
+
+
+  }
   render() {
     return (
       <div>Proudoct</div>
