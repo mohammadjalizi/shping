@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
 export default class Product extends Component {
-
+clickhandler(id){
+    console.log(id)
+}
     render() {
         let{id,title,price,img}=this.props
         return (
@@ -13,7 +15,9 @@ export default class Product extends Component {
 
                     <button
                         class="btn btn-primary shop-item-button"
-                        type="button">
+                        type="button"
+                        
+                        onClick={this.clickhandler.bind(this,id)}>
                         ADD TO CART
                     </button>
                 </div>
