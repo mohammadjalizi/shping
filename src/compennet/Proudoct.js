@@ -14,18 +14,14 @@ let MULIST=[
 {id:4,name:'hassan',price:8,Image:img1},
 
 ]
-function Proudoct(props) {
-  const ullistmap=MULIST.map(item=>(
-    < Cart  key={item.id } image1={item.image} name={item.name} price={item.price} / > 
-  ))
-  return (
-    <div>
+import React from 'react'
 
-{ullistmap}
+import React, { Component } from 'react'
 
-
-    </div>
-  )
+export default class Proudoct extends Component {
+  render() {
+    return (
+      <div>Proudoct</div>
+    )
+  }
 }
-
-export default Proudoct
