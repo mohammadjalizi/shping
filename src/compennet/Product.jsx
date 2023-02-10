@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Product extends Component {
 clickhandler(id){
-    console.log(id)
+ this.props.ONaddproudoct(id)
 }
     render() {
         let{id,title,price,img}=this.props

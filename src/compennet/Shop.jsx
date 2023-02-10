@@ -23,9 +23,16 @@ export default class Shop extends Component {
          
         }
 
-
+this.addproudocttocart=this.addproudocttocart.bind(this)
     }
+addproudocttocart(proudoctid){
+console.log(proudoctid)
+let mainproudoct=this.state.products.find(item=>{
 
+    return item.id ===proudoctid
+})
+console.log(mainproudoct)
+}
 
     render() {
         return (
@@ -43,7 +50,7 @@ export default class Shop extends Component {
                 <section class="container content-section">
                     <div class=" flex w-3/4 gap-5">
 {this.state.products.map(item=>(
-<Product  {...item} />
+<Product  {...item}   ONaddproudoct={this.addproudocttocart} />
 
 
 
