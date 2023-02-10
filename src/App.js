@@ -1,14 +1,12 @@
-import Shop from './compennet/Shop';
-import './App.css';
-import Proudoct from './compennet/Proudoct';
-
+import React from 'react'
+import Shop1 from './compennet/Shop1'
 function App() {
   return (
-    <div className="App">
-      <Proudoct/>
-<Shop/>
+    <div>
+
+      <Shop1/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
