@@ -24,7 +24,8 @@ proudocts:[
 {id:3,name:'ali',price:66,Image:img3},
 {id:4,name:'hassan',price:8,Image:img1},
 
-]
+],
+shopingcart:[],
 
 
 
