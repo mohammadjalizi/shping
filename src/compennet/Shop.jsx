@@ -32,6 +32,12 @@ let mainproudoct=this.state.products.find(item=>{
     return item.id ===proudoctid
 })
 console.log(mainproudoct)
+this.setState(previtem=>{
+return{
+    shoppingCart:previtem.shoppingCart
+}
+
+})
 }
 
     render() {
