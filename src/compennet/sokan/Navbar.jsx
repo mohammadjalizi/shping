@@ -2,7 +2,10 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <div className=  ' bg-yellow-200 text-center  text-2xl    '>
+        
+        MyShop
+    </div>
   )
 }
 
