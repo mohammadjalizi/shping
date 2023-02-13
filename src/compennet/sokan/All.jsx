@@ -5,7 +5,9 @@ import Footer from './Footer'
 function All() {
   return (
   <>
-  
+  <Navbar/>
+  <Project/>
+  <Footer/>
   
   </>
   )

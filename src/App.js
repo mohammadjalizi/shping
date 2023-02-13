@@ -1,12 +1,12 @@
 import React from 'react'
 import Shop from './compennet/Shop'
-import Project from './compennet/sokan/Project'
+import All from './compennet/sokan/All'
 function App() {
   return (
     <div>
 
 <Shop/>
-<Project/>
+<All/>
     </div>
   )
 }
