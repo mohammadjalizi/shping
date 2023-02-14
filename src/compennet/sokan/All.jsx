@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar'
 import Project from './proudocts/Project'
-import Footer from './Footer'
+import Footer from './footer/Footer'
 function All() {
   return (
   <>
