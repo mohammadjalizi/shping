@@ -1,12 +1,13 @@
 import React from 'react'
+import Buuton from './compennet/Buuton'
 
-import All from './compennet/sokan/All'
 function App() {
   return (
-    <div>
+<>
 
-<All/>
-    </div>
+<Buuton/>
+
+</>
   )
 }
 
