@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import Project from './proudocts/Project'
+import ALLProudocts from './proudocts/ALLProudocts'
 import Footer from './footer/Footer'
+
+import ProudoctsD from './proudocts/Data/Proudocts'
 function All() {
   return (
   <>
   <Navbar/>
-  <Project/>
+
+<ProudoctsD  ProudoctData={ALLProudocts}/>
   <Footer/>
   
   </>
