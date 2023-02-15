@@ -9,7 +9,18 @@ function Cimpennet() {
   .catch(()=>alert("erroe"))
 
   return (
-    <div>Cimpennet</div>
+    <div>
+
+app
+
+
+<ul>
+{deta.map(item=><li key={item.id} > {item.title}  </li>)}
+
+
+</ul>
+
+    </div>
   )
 }
 
