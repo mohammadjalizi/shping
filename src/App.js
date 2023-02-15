@@ -1,9 +1,10 @@
 import React from 'react'
-import Com from './compenet2/Com'
+import Cimpennet from './compennet/Cimpennet'
 function App() {
   return (
 <>
-<Com/>
+
+<Cimpennet/>
 
 </>
   )
