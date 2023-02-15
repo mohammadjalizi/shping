@@ -3,7 +3,7 @@ import axios from 'axios'
 
 function Cimpennet() {
     // const[deta,setData]=useState([])
-
+const[loading,setLoading]=useState(false)
 
 useEffect(() => {
 
@@ -33,7 +33,11 @@ axios.get("https://reqres.in/api/users?delay=3")
   return (
     <div>
 
-app
+{
+
+loading ?<h1>loading..</h1>:<h1> reload </h1>
+
+}
 
 
 
