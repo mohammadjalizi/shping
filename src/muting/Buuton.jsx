@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Cimpennet from '../compennet/Cimpennet'
 import Hide from './Hide'
 import Show from './Show'
 function Buuton() {
@@ -10,7 +11,7 @@ function Buuton() {
 <button onClick={()=>setshow(!show)}>click</button>
 
 <hr/>
-{ show? <Hide/> :<show/>  }
+{ show? <Cimpennet/> :<show/>  }
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Buuton from './compennet/Buuton'
+import Buuton from './muting/Buuton'
 
 function App() {
   return (
