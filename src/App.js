@@ -1,11 +1,10 @@
 import React from 'react'
-import Buuton from './muting/Buuton'
-
+import Cimpennet from './compennet/Cimpennet'
 function App() {
   return (
 <>
 
-<Buuton/>
+<Cimpennet/>
 
 </>
   )

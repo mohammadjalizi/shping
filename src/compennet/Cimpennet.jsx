@@ -1,17 +1,16 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-export default class Cimpennet extends Component {
-constructor(props){
-    super(props)
-    console.log("   ")
+function Cimpennet() {
+    const[deta,setData]=useState([])
 
+    fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then((response) => response.json())
+  .then((datarespansive) => setData(datarespansive))
+  .catch(()=>alert("erroe"))
+
+  return (
+    <div>Cimpennet</div>
+  )
 }
 
-
-  render() {
-    return (
-      <div>Cimpennet</div>
-    )
-  }
-}
+export default Cimpennet
