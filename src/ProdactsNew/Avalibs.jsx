@@ -1,5 +1,5 @@
 import React from 'react'
-
+import proudoctsname from './proudoctsname'
 
 const Dummilisy=[
 
@@ -13,14 +13,14 @@ const Dummilisy=[
 
 ]
 function Avalibs() {
-const malilist=Dummilisy.map(meal=><li>{meal.id}</li>)
+const malilist=Dummilisy.map(meal=><li></li>)
 
   return (
     <div>
         
 <ul>
 
-{malilist}
+<proudoctsname/>
 
 </ul>
 
