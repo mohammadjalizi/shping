@@ -11,10 +11,6 @@ const MUlist=[
 ]
 
 
-function shoping() {
-  return (
-    <div>shoping</div>
-  )
-}
+
 
 export default shoping

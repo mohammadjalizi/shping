@@ -4,7 +4,7 @@ function proudoctsname(props) {
   return (
     <div>
         
-<h1> name Is  </h1>
+<h1> {props.title}  </h1>
 <p> myname:  </p>
 
 
