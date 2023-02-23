@@ -4,7 +4,7 @@ import Data from './Data/Data'
 function App() {
 const datamap=Data.map(item=>(
 
-<Card key={item.key}  title={item.name}  />
+<Card key={item.id}  title={item.name}  />
 
 ))
 
