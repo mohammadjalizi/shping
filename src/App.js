@@ -9,7 +9,7 @@ const datamap=Data.map((data)=>{
   return (
 <>
 
-<Card title="hello" />
+{datamap}
 
 </>
   )
