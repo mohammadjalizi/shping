@@ -1,12 +1,14 @@
 import React from 'react'
-
+import Proudoct from './Proudoct'
 function Card({proudoctsData}) {
-  console.log("inprodc:")
-  console.log(proudoctsData)
+
   return (
     <div>
         
-<h1>  card</h1>
+{
+proudoctsData.map(item=> <Proudoct key={item.id} Proudoct={item}/>)
+
+}
 
     </div>
   )
