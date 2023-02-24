@@ -1,6 +1,8 @@
 import React from 'react'
 
-function Card(props) {
+function Card({proudoctsData}) {
+  console.log("inprodc:")
+  console.log(proudoctsData)
   return (
     <div>
         
