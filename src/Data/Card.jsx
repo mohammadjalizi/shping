@@ -6,7 +6,7 @@ function Card({proudoctsData}) {
     <div>
         
 {
-proudoctsData.map(item=> <Proudoct key={item.id} Proudoct={item}/>)
+
 
 }
 
