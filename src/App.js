@@ -4,7 +4,7 @@ import Data from './Data/Data'
 function App() {
 const datamap=Data.map(item=>(
 
-<Card key={item.id}  title={item.name}  />
+
 
 ))
 
@@ -12,8 +12,7 @@ const datamap=Data.map(item=>(
   return (
 <>
 
-{datamap}
-
+<Card/>
 </>
   )
 }
