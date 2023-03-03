@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Card from './Data/Card'
-
+import Data from '../src/Data/Data'
 import axios from 'axios'
 function App() {
 
