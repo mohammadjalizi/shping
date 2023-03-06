@@ -7,6 +7,10 @@ function Map() {
 {id:3,name:'jalizi',price:77},
 
     ]
+    const list=propslist.map((item)=>{
+
+        <h3  key={item} > {item.name}   </h3>
+    })
   return (
     <div>Map</div>
   )
