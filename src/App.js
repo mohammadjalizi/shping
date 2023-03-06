@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Card from './Data/Card'
 import Data from '../src/Data/Data'
 import axios from 'axios'
+import Map from './Map'
 function App() {
 
 useEffect(()=>{
@@ -14,9 +15,10 @@ console.log(Response.data)
 
   return (
 <>
-
+<map/>
 <Card proudoctsData={Data}/>
 </>
+
   )
 }
 
