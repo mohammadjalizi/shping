@@ -1,18 +1,19 @@
 import React from 'react'
 
 function Map() {
-    const propslist=[
-{id:1,name:'mohammad',price:33},
+    const Arry=[
+
+        {id:1,name:'mohammad',price:33},
 {id:2,name:'ali',price:44},
 {id:3,name:'jalizi',price:77},
-
     ]
-    const list=propslist.map((item)=>{
+    const ULLI=Arry.map((ITEM)=>{
 
-        <h3  key={item} > {item.name}   </h3>
+<h3 key={ITEM.id} >  {ITEM.name}  </h3>
+
     })
   return (
-    <div>Map</div>
+    <div>{ULLI}</div>
   )
 }
 
