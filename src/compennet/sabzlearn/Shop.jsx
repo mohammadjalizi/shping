@@ -67,7 +67,9 @@ return{
                 <section class=" my-16 bg-yellow-300">
                     <h2 class=" text-center my-12">CART</h2>
                     <div class=" flex justify-between w-3/4">
-                     
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">Doing</span>
                     </div>
                     <div class="cart-items">
 
